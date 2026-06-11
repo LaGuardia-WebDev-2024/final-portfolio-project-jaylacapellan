@@ -23,9 +23,9 @@ Select ONE Additional Feature to Add
       /* Styling Only Related To THIS Page */
       /*~~~~~ Taken From:
       https://www.w3schools.com/howto/howto_css_parallax.asp*/
-      .parallax {
+      body {
         /* The image used */
-        background-image: url("CS_Ed_Week_2025.jpg");
+        background-color: rgb(253, 247, 238);
 
         /* Set a specific height */
         min-height: 500px;
@@ -43,16 +43,20 @@ Select ONE Additional Feature to Add
       }
       .parent-flex {
         display: flex;
+        justify-content: center;
+        align-items: center;            
       }
       .child-flex {
-        background-color: green;
+        flex: 0 1 500px;
+        background-color:rgb(252, 170, 216);
+        border: 5px solid rgb(177, 74, 132);
         margin: 30px;
-        padding: 10px;
+        padding: 15px;
         text-align: justify;
       }
-      .para-1{
-        display: flex;
-        align-items: center;
+
+      .home{
+        text-align: center
       }
     </style>
   </head>
@@ -61,8 +65,8 @@ Select ONE Additional Feature to Add
     <ul>
       <li><a class="active" href="index.html">home</a></li>
       <li><a href="dance.html">dance</a></li>
-      <li><a href="art.html">FOOD</a></li>
-      <li><a href="resume.html">ppl i love</a></li>
+      <li><a href="FOOD.html">FOOD</a></li>
+      <li><a href="pplilove.html">ppl i love</a></li>
       <li style="float: right">
         <a target="_blank" href=""
           ><img
@@ -70,31 +74,23 @@ Select ONE Additional Feature to Add
             style="width: 25px; margin: -5px"
         /></a>
       </li>
-      <li style="float: right">
-        <a target="_blank" href=""
-          ><img
-            src="https://img.icons8.com/win10/512/FFFFFF/instagram-new.png"
-            style="width: 25px; margin: -5px"
-        /></a>
-      </li>
+      
     </ul>
 
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>Jayla Capellan | all about my senior year!</h1>
+     <br>
+     <br>
+    <h1 class="home">Jayla Capellan</h1>
+    <h2 class="home">all about my senior year!</h2>
     <div class="parallax"></div>
 
-    <div class="textblock parent-flex">
-      <div class="child-flex para-1">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
-        </p>
       </div>
+
+                                    <br>
+                                    <br>
+                                    <br>
+
+    <div class="parent-flex">
       <div class="child-flex">
         <p>
           Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
