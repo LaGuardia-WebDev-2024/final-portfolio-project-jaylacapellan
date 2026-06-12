@@ -6,9 +6,23 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <style>
       /* Styling Only Related To THIS Page */
+      body {
+        /* The image used */
+        background-color: rgb(243, 226, 197);
+
+        /* Set a specific height */
+        min-height: 500px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
       .parent-flex {
         display: flex;
-        background-color: purple;
+        background-color: rgb(173, 70, 130);;
         align-items: center;
         justify-content: space-around;
         margin-bottom: 50px;
@@ -23,6 +37,11 @@
         padding: 20px;
         margin: 20px;
       }
+
+      h1 {
+        text-align: center;
+      }
+
     </style>
   </head>
   <body>
@@ -49,7 +68,7 @@
     </ul>
 
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>About Me</h1>
+    <h1>Dance</h1>
     <div class="parent-flex">
       <div class="child-flex">
         <img
